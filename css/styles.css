@@ -3,13 +3,85 @@
   src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
 
 @font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 @font-face {
   font-family: titulos-funky;
   src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
 
 @font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+@font-face {
   font-family: titulos-funky;
   src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+body header nav div h1 {
+  font-family: "titulos" titulos-funky; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+body {
+  background-color: "jaffa" #f39143; }
+  body .index-content video {
+    width: 98%; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }

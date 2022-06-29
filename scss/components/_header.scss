@@ -1,0 +1,15 @@
+@import 'base/extend';
+@import 'base/listas';
+@import 'base/variables';
+
+body {
+    header{
+        nav{
+            div{
+                h1{
+                    font-family: nth($font-family, 1 );
+                }
+            }
+        }
+    }
+}
