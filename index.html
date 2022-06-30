@@ -13,7 +13,7 @@
 <body>
     <!-- Header -->
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-light" aria-label="breadcrumb">
+        <nav class="navbar navbar-expand-md navbar-light">
             <!-- Navbar Brand-->
                 <div class="container-fluid">
                 <h1>Tom Iriarte</h1>
@@ -46,26 +46,29 @@
         </nav>
     </header>
     <main class="index-content container-fluid">
-    <video muted autoplay loop src="Media/videos/video-fondo.mp4" type="video/mp4"></video>
+    <video muted autoplay loop src="Media/videos/video-fondo-old.mp4" type="video/mp4"></video>
     <div class="capa"></div>
     </main>
     <!-- Footer -->
-    <footer class="container-fluid">
-        <div class="row">
-            <form class="newletter">
-                <div class="col-6 mail">
-                    <input type="email" class="form-control" id="emailInput" placeholder="email">
-                </div>
-                <div class="boton.submit">
-                    <button type="submit" class="col-3 btn btn-sm ms-3 btn-outline-success">Regístrate</button>
-                </div>
-            </form>
-            <nav class="col-3 redes">
-                <a class="soundcloud" href="https://soundcloud.com/iriarte-tom?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img src="media/icons/soundcloud.svg" alt="soundcloud"></a>
-                <a class="instagram" href="https://www.instagram.com/tom_iriarte/"><img src="media/icons/instagram.svg" alt="isntagram"></a>
-                <a class="youtube" href="https://www.youtube.com/channel/UC6n2qoIPdRyiM7Ui1SEqLeg"><img src="media/icons/youtube.svg" alt="youtube"></a>
-            </nav>
+    <footer>
+            <!--Formulario -->
+        <form class="newsletter">
+            <div class="mail">
+                <input type="email" class="form-control" id="emailInput" placeholder="email">
+            </div>
+            <div class="boton.submit">
+                <button type="submit" class="btn btn-sm btn-outline-success">Submit</button>
+            </div>
+        </form>
+        <div class="title-form">
+            <h4>Get the Latest News!</h4>
         </div>
+            <!-- Navbar redes -->
+        <nav class="navbar-redes">
+            <a class="soundcloud" href="https://soundcloud.com/iriarte-tom?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img src="media/icons/soundcloud.svg" alt="soundcloud"></a>
+            <a class="instagram" href="https://www.instagram.com/tom_iriarte/"><img src="media/icons/instagram.svg" alt="isntagram"></a>
+            <a class="youtube" href="https://www.youtube.com/channel/UC6n2qoIPdRyiM7Ui1SEqLeg"><img src="media/icons/youtube.svg" alt="youtube"></a>
+        </nav>
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
