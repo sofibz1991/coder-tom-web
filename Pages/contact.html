@@ -47,15 +47,40 @@
     </header>
     <!-- Contenido -->
     <main class="container contact-content">
-        <form class="row">
-            <div class="-col6">
-                <label for="email-input" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email-input" placeholder="email">
+        <form id = "contacto" >
+            <div class="row">
+                <div class="col-3">
+                    <label for="name"> <i class="bi bi-person-fill"></i> Nombre</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder= "Name" required>
+                    <div class="name text-danger "></div>
+                </div>
+                <div class="col-3">
+                    <label for="lastname"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder= "Lastname" required>
+                    <div class="lastname text-danger"></div>
+                </div>
             </div>
-            <div class="-col6">
-                <label for="message-input" class="form-label">Message</label>
-                <input type="text" class="form-control" id="message-input" placeholder="message">
-            </div>
+            <div class="row">
+                <div class="col-8">
+                    <label for="correo"><i class="bi bi-envelope-fill"></i> Email</label>
+                    <input type="email" class="form-control" name="correo" id="correo" placeholder= "letscatchup@mail.com" required>
+                    <div class="email text-danger"></div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-8">
+                    <label for="message"> <i class="bi bi-chat-right-dots-fill" required></i> Message</label>
+                    <textarea name="message" id="mensaje" class="form-control" placeholder="Hi, there!"></textarea>
+                    <div class="mensaje text-danger"></div>
+                </div>
+            </div> 
+            <div class="row mt-4">
+                <div class="col-6">
+                    <button id ="boton" class="btn btn-primary d-flex justify-content-between ">
+                        <span>Submit </span><i id="icono" class="bi bi-cursor-fill "></i>
+                    </button>
+                </div>
+            </div> 
         </form>
     </main>
     <!-- Footer -->

@@ -35,8 +35,32 @@ body .about-content {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-footer div a .instagram, footer div a .soundcloud, footer div a .youtube {
-  width: 8%; }
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px; }
+  footer form {
+    margin-right: 25%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    footer form div {
+      margin: 5px auto; }
+      footer form div input {
+        width: 50%;
+        padding: 30px;
+        margin-right: 5px; }
+  footer .redes {
+    margin-left: 10%; }
+    footer .redes .redes-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: left; }
+      footer .redes .redes-container a img {
+        width: 15%; }
 
 @font-face {
   font-family: titulos-funky;
