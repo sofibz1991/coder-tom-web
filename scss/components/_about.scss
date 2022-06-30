@@ -2,3 +2,10 @@
 @import '../base/listas';
 @import '../base/variables';
 
+body {
+    .about-content{
+        background-image: url(../../Media/Fotos/ojo-de-pez.svg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}

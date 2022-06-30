@@ -14,13 +14,10 @@
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+body .about-content {
+  background-image: url(../../Media/Fotos/ojo-de-pez.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 @font-face {
   font-family: titulos-funky;
@@ -38,6 +35,9 @@
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
+footer div a .instagram, footer div a .soundcloud, footer div a .youtube {
+  width: 8%; }
+
 @font-face {
   font-family: titulos-funky;
   src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
@@ -46,8 +46,13 @@
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-body header nav div h1 {
-  font-family: "titulos" titulos-funky; }
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 @font-face {
   font-family: titulos-funky;
@@ -66,7 +71,7 @@ body header nav div h1 {
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 body {
-  background-color: "jaffa" #f39143; }
+  background-color: #f39143; }
   body .index-content video {
     width: 98%; }
 

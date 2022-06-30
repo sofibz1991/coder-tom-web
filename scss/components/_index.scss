@@ -3,7 +3,7 @@
 @import '../base/extend';
 
 body {
-    background-color: nth($colores, 5);
+    background-color: map-get($map: $colores , $key:'jaffa');
     .index-content {
         video{
             width: 98%;

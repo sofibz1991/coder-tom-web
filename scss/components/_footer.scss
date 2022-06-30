@@ -1,3 +1,13 @@
 @import '../base/extend';
 @import '../base/listas';
 @import '../base/variables';
+
+footer {
+    div{
+        a{
+            .instagram, .soundcloud, .youtube{
+                width: 8%;
+            }
+        }
+    }
+}
