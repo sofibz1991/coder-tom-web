@@ -14,10 +14,11 @@
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-body .about-content {
-  background-image: url(../../Media/Fotos/ojo-de-pez.svg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+.about-content div p {
+  font-family: parrafos; }
+
+.about-content div img {
+  width: 98%; }
 
 @font-face {
   font-family: titulos-funky;
@@ -38,36 +39,43 @@ body .about-content {
 footer {
   padding: 5px;
   margin: 2px;
-  height: 15vh;
   display: flex; }
   footer form {
     display: flex;
     flex-direction: row;
-    padding: 2px;
-    position: relative;
-    top: 5vh;
-    left: 5vw; }
-    footer form div input {
+    width: 80vw;
+    margin-left: 15vw;
+    margin-top: 2vw; }
+    footer form .form-control {
       width: 60%;
-      margin-right: 5px; }
+      height: 35%;
+      margin-right: 2vw;
+      font-family: parrafos; }
+    footer form .boton {
+      width: 25%;
+      height: 35%;
+      border-radius: 5px;
+      font-family: parrafos; }
   footer .title-form {
     position: relative;
-    top: 15vh;
-    right: 10vw; }
-  footer nav {
+    top: 12vh;
+    right: 30vw;
+    width: 35%; }
+    footer .title-form h3 {
+      font-size: 25px;
+      padding: 5px;
+      font-family: titulos-funky; }
+  footer .navbar-redes {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     position: relative;
-    left: 50vw; }
-    footer nav a {
+    left: 5vw; }
+    footer .navbar-redes a {
       margin-bottom: 2vh; }
-      footer nav a img {
+      footer .navbar-redes a img {
         width: 8%; }
 
-div {
-  display: block; }
-
 @font-face {
   font-family: titulos-funky;
   src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
@@ -83,6 +91,13 @@ div {
 @font-face {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+header .navbar h1 {
+  font-family: titulos-funky; }
+
+header .navbar #MenuNavegacion ul li a {
+  font-family: titulos-funky;
+  font-size: 20px; }
 
 @font-face {
   font-family: titulos-funky;
@@ -103,7 +118,7 @@ div {
 body {
   background-color: #f39143; }
   body .index-content video {
-    width: 98%; }
+    width: 100%; }
 
 @font-face {
   font-family: titulos-funky;

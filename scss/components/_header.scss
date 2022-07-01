@@ -2,12 +2,18 @@
 @import 'base/listas';
 @import 'base/variables';
 
-body {
-    header{
-        nav{
-            div{
-                h1{
-                    font-family: map-get($map:$font-family, $key:titulos-funky);
+header{
+    .navbar{
+        h1{
+            font-family: map-get($font-family, titulos);
+        }
+        #MenuNavegacion {
+            ul{
+                li{
+                    a{
+                        font-family: map-get($font-family, titulos);
+                        font-size: nth($tamanios-fuente, 5);
+                    }
                 }
             }
         }
