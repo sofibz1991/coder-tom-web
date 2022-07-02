@@ -2,15 +2,22 @@
 @import '../base/listas';
 @import '../base/variables';
 
-.about-content{
-    div{
-        p{
-            font-family: map-get($font-family, parrafos );
+
+.about{
+    background-image: url(../../Media/Fotos/about-fondo2.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .about-content{
+        div{
+            p{
+                font-family: map-get($font-family, parrafos );
+                color: white;
+            }
         }
-    }
-    div{
-        img{
-            width: 98%;
+        div{
+            img{
+                width: 98%;
+            }
         }
     }
 }

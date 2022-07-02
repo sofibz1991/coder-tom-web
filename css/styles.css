@@ -1,32 +1,23 @@
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
 
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-.about-content div p {
-  font-family: parrafos; }
-
-.about-content div img {
-  width: 98%; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
 
 @font-face {
   font-family: titulos-funky;
@@ -35,11 +26,97 @@
 @font-face {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+.about {
+  background-image: url(../../Media/Fotos/about-fondo2.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .about .about-content div p {
+    font-family: parrafos;
+    color: white; }
+  .about .about-content div img {
+    width: 98%; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
+.contacto {
+  background-image: url(../../Media/Fotos/ojo-de-pez.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.contact-content .contact {
+  margin-left: 3vw;
+  margin-top: 4vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 50%; }
+  .contact-content .contact h2 {
+    color: #f39143;
+    text-align: center;
+    margin-bottom: 4vw;
+    font-family: titulos-funky; }
+  .contact-content .contact input, .contact-content .contact textarea {
+    width: 100%;
+    margin-bottom: 2vw;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: parrafos;
+    border-radius: 10px;
+    border: 1px, solid, transparent; }
+  .contact-content .contact textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%; }
+  .contact-content .contact #boton {
+    padding: 20px; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
 
 footer {
-  padding: 5px;
-  margin: 2px;
-  display: flex; }
+  margin-top: 5vh;
+  display: flex;
+  position: relative;
+  z-index: 2; }
   footer form {
     display: flex;
     flex-direction: row;
@@ -54,27 +131,79 @@ footer {
     footer form .boton {
       width: 25%;
       height: 35%;
-      border-radius: 5px;
       font-family: parrafos; }
   footer .title-form {
     position: relative;
-    top: 12vh;
+    top: 14vh;
     right: 30vw;
     width: 35%; }
     footer .title-form h3 {
-      font-size: 25px;
+      font-size: 30px;
       padding: 5px;
-      font-family: titulos-funky; }
-  footer .navbar-redes {
+      font-family: titulos-funky;
+      color: #f39143; }
+  footer .social-bar {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     position: relative;
     left: 5vw; }
-    footer .navbar-redes a {
-      margin-bottom: 2vh; }
-      footer .navbar-redes a img {
-        width: 8%; }
+    footer .social-bar .icon {
+      margin-bottom: 2vh;
+      display: flex;
+      padding: 5px; }
+    footer .social-bar img {
+      width: 15%;
+      display: flex; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
+.gallery {
+  background-image: url(../../Media/Fotos/buganvilia.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .gallery div div img {
+    width: 70%; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
 
 @font-face {
   font-family: titulos-funky;
@@ -84,20 +213,17 @@ footer {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-header .navbar h1 {
-  font-family: titulos-funky; }
-
-header .navbar #MenuNavegacion ul li a {
-  font-family: titulos-funky;
-  font-size: 20px; }
+header {
+  position: relative;
+  z-index: 2; }
+  header .navbar h1 {
+    font-family: titulos-funky;
+    color: #f39143;
+    font-size: 45px; }
+  header .navbar #MenuNavegacion ul li a {
+    font-family: titulos-funky;
+    font-size: 20px;
+    color: #f39143; }
 
 @font-face {
   font-family: titulos-funky;
@@ -107,6 +233,70 @@ header .navbar #MenuNavegacion ul li a {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
+#index {
+  min-height: 100 vh;
+  position: relative; }
+  #index video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover; }
+  #index .capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #560d50;
+    opacity: 0.5;
+    mix-blend-mode: overlay; }
+  #index .main-index {
+    padding: 40vh; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
 @font-face {
   font-family: titulos-funky;
   src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
@@ -115,18 +305,31 @@ header .navbar #MenuNavegacion ul li a {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-body {
-  background-color: #f39143; }
-  body .index-content video {
-    width: 100%; }
+.music {
+  background-image: url(../../Media/Fotos/buganvilia.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #85097b;
+    cursor: pointer; }
 
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
 
 @font-face {
   font-family: titulos-funky;

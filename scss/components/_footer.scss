@@ -1,11 +1,12 @@
 @import '../base/extend';
 @import '../base/listas';
-@import '../base/variables';
 
 footer {
-    padding: 5px;
-    margin: 2px;
+    margin-top: 5vh;
     display: flex;
+    position: relative;
+    z-index: 2;
+    @extend %glass-morphism;
     form{
         display: flex;
         flex-direction: row;
@@ -21,32 +22,38 @@ footer {
         .boton {
             width: 25%;
             height: 35%;
-            border-radius: 5px;
             font-family: map-get($font-family, parrafos);
+            @extend %boton-form;
         }
     }
     .title-form{
         position: relative;
-        top: 12vh;
+        top: 14vh;
         right: 30vw;
         width:35% ;
         h3{
-            font-size: nth($tamanios-fuente, 6);
+            font-size: map-get($tamanios-fuente, subtitulos);
             padding: 5px;
             font-family: map-get($font-family, titulos);
+            color: map-get($colores, jaffa);
         }
     }
-    .navbar-redes {
+    .social-bar {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
         list-style-type: none;
         position: relative;
         left: 5vw;
-                a{
+                .icon{
                     margin-bottom: 2vh;
-                    img{
-                        width: 8%;
+                    display: flex;
+                    padding: 5px;
+                    @extend %animacion-nav;
                     }
+                    img{
+                        width: 15%;
+                        display: flex;
                 }
     }
 }
+

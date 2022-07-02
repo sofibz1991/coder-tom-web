@@ -1,11 +1,34 @@
-@import 'variables';
-
-%botones-redes {
-    padding: 0;
-    width: 50%;
+@import 'listas';
+%animacion-links {
+    transition: all .5s;
+        &:hover{
+        box-shadow: 0 0 .5rem rgba(0,0,0, .42);
+        }
 }
 
-%fuentes-titulos {
-    font-family: titulos-funky;
-    font-size: 20px;
+%boton-form {
+    border-radius: 10px;
+    background-color: map-get($colores, jaffa);
+    color: map-get($colores, tamarind);
+    &:hover{
+        background-color: map-get($colores, mag);
+        cursor: pointer;
+    }
 }
+
+%animacion-nav {
+    transition: all .5s;
+    &:hover{
+        border-radius: 10px;
+        transform: scale(1.15);
+        box-shadow: 0 0 .5rem rgba(0,0,0, .42);
+    }
+}
+
+%glass-morphism {
+    border-radius: 30px;
+    background-color: rgba(86, 13, 80, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+    backdrop-filter: blur (18px);
+}
+

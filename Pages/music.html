@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>Music - Tom Iriarte</title>
 </head>
-<body>
+<body class="music">
     <!-- Header -->
     <header class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light">
@@ -24,20 +24,20 @@
                 <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav ms-5 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link" id="hover1" href="../index.html">Home</a>
+                            <a class="nav-link"  href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover2" href="../Pages/about.html">About</a>
+                            <a class="nav-link"  href="../Pages/about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover3" href="../Pages/music.html">Music</a>
+                            <a class="nav-link"  href="../Pages/music.html">Music</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover4" href="../Pages/gallery.html">Gallery
+                            <a class="nav-link"  href="../Pages/gallery.html">Gallery
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover4" href="../Pages/contact.html">Contact
+                            <a class="nav-link"  href="../Pages/contact.html">Contact
                             </a>
                         </li>
                     </ul>       
@@ -46,13 +46,13 @@
         </nav>
     </header>
     <!-- Contenido -->
-    <main class="container music-content">
+    <main class="container-fluid music-content">
         <div class="row">
-            <div class="col-6">
-                <img src="../Media/artes/lofunkvibes.jpg" alt="tapa de deisco lofunkvibes">
+            <div class="col-4 ms-3 mt-5">
+                <img class="lofunk" src="../Media/artes/lofunkvibes.svg" alt="tapa de disco lofunkvibes">
             </div>
-            <div class="col-6">
-                <iframe src="https://open.spotify.com/embed/artist/7rZS2bs4t7kcWY6MUrwkmk" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="col-4 justify-content-end me-3">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7rZS2bs4t7kcWY6MUrwkmk?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
         </div>
     </main>
@@ -67,10 +67,10 @@
     <h3>Get the Latest News!</h3>
 </div>
     <!-- Navbar redes -->
-<nav class="navbar-redes">
-    <a class="soundcloud" href="https://soundcloud.com/iriarte-tom?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img src="../Media/icons/soundcloud.svg" alt="soundcloud"></a>
-    <a class="instagram" href="https://www.instagram.com/tom_iriarte/"><img src="../Media/icons/instagram.svg" alt="isntagram"></a>
-    <a class="youtube" href="https://www.youtube.com/channel/UC6n2qoIPdRyiM7Ui1SEqLeg"><img src="../Media/icons/youtube.svg" alt="youtube"></a>
+<nav class="social-bar">
+    <a class="soundcloud" target="_blank" href="https://soundcloud.com/iriarte-tom?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img src="../Media/icons/soundcloud.svg" alt="soundcloud"></a>
+    <a class="instagram" target="_blank" href="https://www.instagram.com/tom_iriarte/"><img src="../Media/icons/instagram.svg" alt="isntagram"></a>
+    <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UC6n2qoIPdRyiM7Ui1SEqLeg"><img src="../Media/icons/youtube.svg" alt="youtube"></a>
 </nav>
 </footer>
     <!-- Bootstrap JS -->

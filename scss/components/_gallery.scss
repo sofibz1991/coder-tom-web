@@ -1,0 +1,15 @@
+@import '../base/extend';
+@import '../base/listas';
+
+.gallery {
+    background-image: url(../../Media/Fotos/buganvilia.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    div{
+        div{
+            img{
+            width: 70%
+            }
+        }
+    }
+}

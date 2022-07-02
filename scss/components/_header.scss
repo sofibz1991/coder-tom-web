@@ -3,16 +3,23 @@
 @import 'base/variables';
 
 header{
+    position: relative;
+    z-index:2 ;
+    @extend %glass-morphism;
     .navbar{
         h1{
             font-family: map-get($font-family, titulos);
+            color: map-get($colores, jaffa);
+            font-size: map-get($tamanios-fuente, brand);
         }
         #MenuNavegacion {
             ul{
                 li{
+                    @extend %animacion-nav;
                     a{
                         font-family: map-get($font-family, titulos);
-                        font-size: nth($tamanios-fuente, 5);
+                        font-size: map-get($tamanios-fuente, links);
+                        color: map-get($colores, jaffa);
                     }
                 }
             }

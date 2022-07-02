@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Tom Iriarte</title>
 </head>
-<body>
+<body id="index">
     <!-- Header -->
     <header class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light">
@@ -24,20 +24,20 @@
                 <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav ms-5 justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link" id="hover1" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover2" href="Pages/about.html">About</a>
+                            <a class="nav-link" href="Pages/about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover3" href="Pages/music.html">Music</a>
+                            <a class="nav-link" href="Pages/music.html">Music</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover4" href="Pages/gallery.html">Gallery
+                            <a class="nav-link" href="Pages/gallery.html">Gallery
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="hover4" href="Pages/contact.html">Contact
+                            <a class="nav-link" href="Pages/contact.html">Contact
                             </a>
                         </li>
                     </ul>       
@@ -45,10 +45,14 @@
             </div>
         </nav>
     </header>
-    <main class="index-content container-fluid">
+    <!-- Video de Fondo -->
     <video muted autoplay loop src="Media/videos/video-fondo-old.mp4" type="video/mp4"></video>
     <div class="capa"></div>
+    <!-- Main -->
+    <main class="main-index">
+
     </main>
+    
     <!-- Footer -->
     <footer>
             <!--Formulario -->
@@ -60,10 +64,10 @@
             <h3>Get the Latest News!</h3>
         </div>
             <!-- Navbar redes -->
-        <nav class="navbar-redes">
-            <a class="soundcloud" href="https://soundcloud.com/iriarte-tom?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img src="media/icons/soundcloud.svg" alt="soundcloud"></a>
-            <a class="instagram" href="https://www.instagram.com/tom_iriarte/"><img src="media/icons/instagram.svg" alt="isntagram"></a>
-            <a class="youtube" href="https://www.youtube.com/channel/UC6n2qoIPdRyiM7Ui1SEqLeg"><img src="media/icons/youtube.svg" alt="youtube"></a>
+        <nav class="social-bar">
+            <a class="icon soundcloud" target="_blank" href="https://soundcloud.com/iriarte-tom?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img src="media/icons/soundcloud.svg" alt="soundcloud"></a>
+            <a class="icon instagram" target="_blank" href="https://www.instagram.com/tom_iriarte/"><img src="media/icons/instagram.svg" alt="instagram"></a>
+            <a class="icon youtube" target="_blank" href="https://www.youtube.com/channel/UC6n2qoIPdRyiM7Ui1SEqLeg"><img src="media/icons/youtube.svg" alt="youtube"></a>
         </nav>
     </footer>
     <!-- Bootstrap JS -->
