@@ -5,10 +5,34 @@
     background-image: url(../../Media/Fotos/buganvilia.svg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    div{
+    .gallery-container{
         div{
-            img{
-            width: 70%
+            h2{
+                font-size: map-get($tamanios-fuente, t-tulos);
+                font-family: map-get($font-family, titulos);
+                @extend %titulos-y-subs;
+            }
+        }
+        div{
+            div{
+                img{
+                    width: 70%;
+                    @extend %animacion-gallery;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .gallery{
+        .gallery-container{
+            div{
+                div{
+                    img{
+                        width: 96%;
+                    }
+                }
             }
         }
     }

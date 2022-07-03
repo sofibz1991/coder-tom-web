@@ -1,17 +1,11 @@
 @import 'listas';
-%animacion-links {
-    transition: all .5s;
-        &:hover{
-        box-shadow: 0 0 .5rem rgba(0,0,0, .42);
-        }
-}
 
 %boton-form {
     border-radius: 10px;
     background-color: map-get($colores, jaffa);
     color: map-get($colores, tamarind);
     &:hover{
-        background-color: map-get($colores, mag);
+        background-color: map-get($colores, kobi);
         cursor: pointer;
     }
 }
@@ -32,3 +26,15 @@
     backdrop-filter: blur (18px);
 }
 
+%titulos-y-subs {
+    color: map-get($colores, jaffa);
+    -webkit-text-stroke: 0.5px black;
+}
+
+%animacion-gallery {
+    transition: all .8s;
+    &:hover{
+        transform: scale(3);
+        cursor: pointer;
+    }
+}

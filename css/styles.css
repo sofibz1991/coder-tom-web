@@ -3,7 +3,7 @@
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -18,6 +18,16 @@ footer, header {
   background-color: rgba(86, 13, 80, 0.3);
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 @font-face {
   font-family: titulos-funky;
@@ -31,6 +41,9 @@ footer, header {
   background-image: url(../../Media/Fotos/about-fondo2.svg);
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  .about .about-content div h2 {
+    font-family: titulos-funky;
+    font-size: 36px; }
   .about .about-content div p {
     font-family: parrafos;
     color: white; }
@@ -42,7 +55,7 @@ footer, header {
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -57,6 +70,16 @@ footer, header {
   background-color: rgba(86, 13, 80, 0.3);
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 .contacto {
   background-image: url(../../Media/Fotos/ojo-de-pez.svg);
@@ -91,12 +114,17 @@ footer, header {
   .contact-content .contact #boton {
     padding: 20px; }
 
+@media (max-width: 900px) {
+  .contacto .contact-content .contact {
+    position: relative;
+    left: 20vw; } }
+
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -112,14 +140,24 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
+
 footer {
   margin-top: 5vh;
   display: flex;
+  flex-direction: column;
   position: relative;
   z-index: 2; }
   footer form {
     display: flex;
-    flex-direction: row;
     width: 80vw;
     margin-left: 15vw;
     margin-top: 2vw; }
@@ -132,22 +170,11 @@ footer {
       width: 25%;
       height: 35%;
       font-family: parrafos; }
-  footer .title-form {
-    position: relative;
-    top: 14vh;
-    right: 30vw;
-    width: 35%; }
-    footer .title-form h3 {
-      font-size: 30px;
-      padding: 5px;
-      font-family: titulos-funky;
-      color: #f39143; }
   footer .social-bar {
     display: flex;
-    flex-direction: column;
     list-style-type: none;
     position: relative;
-    left: 5vw; }
+    left: 14vw; }
     footer .social-bar .icon {
       margin-bottom: 2vh;
       display: flex;
@@ -156,12 +183,34 @@ footer {
       width: 15%;
       display: flex; }
 
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column; }
+    footer form {
+      flex-direction: column; }
+      footer form .form-control {
+        width: 100%;
+        height: 15%; }
+      footer form .boton {
+        width: 45%;
+        position: relative;
+        left: 20vw; }
+    footer .title-form h3 {
+      font-size: 18px; }
+    footer .social-bar {
+      flex-direction: row; }
+      footer .social-bar .icon {
+        position: relative;
+        left: 6vw; }
+        footer .social-bar .icon img {
+          width: 20%; } }
+
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -176,20 +225,37 @@ footer, header {
   background-color: rgba(86, 13, 80, 0.3);
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 .gallery {
   background-image: url(../../Media/Fotos/buganvilia.svg);
   background-attachment: fixed;
   background-repeat: no-repeat; }
-  .gallery div div img {
+  .gallery .gallery-container div h2 {
+    font-size: 40px;
+    font-family: titulos-funky; }
+  .gallery .gallery-container div div img {
     width: 70%; }
+
+@media (max-width: 900px) {
+  .gallery .gallery-container div div img {
+    width: 96%; } }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -204,6 +270,16 @@ footer, header {
   background-color: rgba(86, 13, 80, 0.3);
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 @font-face {
   font-family: titulos-funky;
@@ -218,12 +294,10 @@ header {
   z-index: 2; }
   header .navbar h1 {
     font-family: titulos-funky;
-    color: #f39143;
     font-size: 45px; }
   header .navbar #MenuNavegacion ul li a {
     font-family: titulos-funky;
-    font-size: 20px;
-    color: #f39143; }
+    font-size: 26px; }
 
 @font-face {
   font-family: titulos-funky;
@@ -238,7 +312,7 @@ header {
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -253,6 +327,16 @@ footer, header {
   background-color: rgba(86, 13, 80, 0.3);
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 #index {
   min-height: 100 vh;
@@ -281,7 +365,7 @@ footer, header {
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -297,25 +381,49 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
 
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 .music {
   background-image: url(../../Media/Fotos/buganvilia.svg);
   background-attachment: fixed;
   background-repeat: no-repeat; }
+  .music .music-content {
+    display: flex;
+    padding: 8%; }
+    .music .music-content h2 {
+      font-size: 40px;
+      font-family: titulos-funky;
+      position: relative;
+      left: 18vw;
+      display: inline; }
+    .music .music-content .tapa img {
+      width: 60%;
+      position: relative;
+      top: 10vh; }
+    .music .music-content .tapa .spotify iframe {
+      position: relative;
+      top: 5vh; }
+
+@media (max-width: 900px) {
+  .music-content h2 {
+    display: none; }
+  .music-content .tapa {
+    display: none; } }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
   .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #85097b;
+    background-color: #e8a1aa;
     cursor: pointer; }
 
 footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
@@ -330,6 +438,16 @@ footer, header {
   background-color: rgba(86, 13, 80, 0.3);
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 @font-face {
   font-family: titulos-funky;

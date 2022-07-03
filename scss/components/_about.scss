@@ -9,6 +9,13 @@
     background-attachment: fixed;
     .about-content{
         div{
+            h2{
+                @extend %titulos-y-subs;
+                font-family: map-get($font-family, titulos);
+                font-size: map-get($tamanios-fuente, subtitulos);
+            }
+        }
+        div{
             p{
                 font-family: map-get($font-family, parrafos );
                 color: white;

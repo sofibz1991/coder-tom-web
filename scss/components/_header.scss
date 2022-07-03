@@ -9,8 +9,8 @@ header{
     .navbar{
         h1{
             font-family: map-get($font-family, titulos);
-            color: map-get($colores, jaffa);
             font-size: map-get($tamanios-fuente, brand);
+            @extend %titulos-y-subs;
         }
         #MenuNavegacion {
             ul{
@@ -19,7 +19,7 @@ header{
                     a{
                         font-family: map-get($font-family, titulos);
                         font-size: map-get($tamanios-fuente, links);
-                        color: map-get($colores, jaffa);
+                        @extend %titulos-y-subs;
                     }
                 }
             }
