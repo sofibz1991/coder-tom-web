@@ -1,4 +1,10 @@
 @import 'listas';
+%img-fondo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 
 %boton-form {
     border-radius: 10px;

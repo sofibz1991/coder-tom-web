@@ -11,11 +11,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -32,13 +38,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -120,18 +126,29 @@ html {
   margin: 0;
   padding: 0; }
 
-.about {
-  background-image: url(../../Media/Fotos/about-fondo2.svg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
-  .about .about-content div h2 {
+#about {
+  background-image: url(../../Media/Fotos/about-fondo2.svg); }
+  #about .about-content div h2 {
     font-family: titulos-funky;
-    font-size: 36px; }
-  .about .about-content div p {
+    font-size: 36px;
+    animation: to-color 2s ease-in; }
+
+@keyframes to-color {
+  from {
+    color: transparent; }
+  to {
+    color: #f39143; } }
+  #about .about-content div p {
     font-family: parrafos;
-    color: white; }
-  .about .about-content div img {
+    color: white;
+    animation: to-white 3.5s ease-in; }
+
+@keyframes to-white {
+  from {
+    color: transparent; }
+  to {
+    color: white; } }
+  #about .about-content div img {
     width: 98%; }
 
 @font-face {
@@ -147,11 +164,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -168,13 +191,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -256,41 +279,38 @@ html {
   margin: 0;
   padding: 0; }
 
-.contacto {
-  background-image: url(../../Media/Fotos/ojo-de-pez.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-
-.contact-content .contact {
-  margin-left: 3vw;
-  margin-top: 4vh;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  border-radius: 30px;
-  width: 50%; }
-  .contact-content .contact h2 {
-    color: #f39143;
-    text-align: center;
-    margin-bottom: 4vw;
-    font-family: titulos-funky; }
-  .contact-content .contact input, .contact-content .contact textarea {
-    width: 100%;
-    margin-bottom: 2vw;
-    padding: 7px;
+#contacto {
+  background-image: url(../../Media/Fotos/ojo-de-pez.svg); }
+  #contacto .contact-content .contact {
+    margin-left: 3vw;
+    margin-top: 4vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
     box-sizing: border-box;
-    font-family: parrafos;
-    border-radius: 10px;
-    border: 1px, solid, transparent; }
-  .contact-content .contact textarea {
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%; }
-  .contact-content .contact #boton {
-    padding: 20px; }
+    border-radius: 30px;
+    width: 50%; }
+    #contacto .contact-content .contact h2 {
+      color: #f39143;
+      text-align: center;
+      margin-bottom: 4vw;
+      font-family: titulos-funky; }
+    #contacto .contact-content .contact input, #contacto .contact-content .contact textarea {
+      width: 100%;
+      margin-bottom: 2vw;
+      padding: 7px;
+      box-sizing: border-box;
+      font-family: parrafos;
+      border-radius: 10px;
+      border: 1px, solid, transparent; }
+    #contacto .contact-content .contact textarea {
+      min-height: 100px;
+      max-height: 200px;
+      max-width: 100%; }
+    #contacto .contact-content .contact #boton {
+      padding: 20px; }
 
 @media (max-width: 900px) {
-  .contacto .contact-content {
+  #contacto .contact-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,11 +330,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -331,13 +357,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -501,11 +527,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -522,13 +554,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -610,18 +642,16 @@ html {
   margin: 0;
   padding: 0; }
 
-.gallery {
-  background-image: url(../../Media/Fotos/buganvilia.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-  .gallery .gallery-container div h2 {
+#gallery {
+  background-image: url(../../Media/Fotos/buganvilia.svg); }
+  #gallery .gallery-container div h2 {
     font-size: 40px;
     font-family: titulos-funky; }
-  .gallery .gallery-container div div img {
+  #gallery .gallery-container div div img {
     width: 70%; }
 
 @media (max-width: 900px) {
-  .gallery .gallery-container div div img {
+  #gallery .gallery-container div div img {
     width: 96%; } }
 
 @font-face {
@@ -637,11 +667,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -658,13 +694,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -769,11 +805,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -790,13 +832,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -913,11 +955,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -934,13 +982,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 
@@ -1022,18 +1070,16 @@ html {
   margin: 0;
   padding: 0; }
 
-.music {
-  background-image: url(../../Media/Fotos/buganvilia.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-  .music .music-content {
+#music {
+  background-image: url(../../Media/Fotos/buganvilia.svg); }
+  #music .music-content {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
     padding: 8%; }
-    .music .music-content .tapa img {
+    #music .music-content .tapa img {
       width: 80%; }
 
 @media (max-width: 900px) {
@@ -1053,11 +1099,17 @@ html {
   margin: 0;
   padding: 0; }
 
-.contact-content .contact #boton, footer form .boton {
+#about, #contacto, #gallery, #music {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+#contacto .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
   color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
+  #contacto .contact-content .contact #boton:hover, footer form .boton:hover {
     background-color: #e8a1aa;
     cursor: pointer; }
 
@@ -1074,13 +1126,13 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+#about .about-content div h2, #contacto .contact-content .contact h2, #gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery .gallery-container div div img {
+#gallery .gallery-container div div img {
   transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
+  #gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
 

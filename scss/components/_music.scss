@@ -3,10 +3,9 @@
 @import '../base/mixin';
 @import '../base/mixin';
 @import '../base/global';
-.music{
+#music{
     background-image: url(../../Media/Fotos/buganvilia.svg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    @extend %img-fondo;
     .music-content{
         @include flex(flex-start, center, nowrap, row);
         padding: 8%;
