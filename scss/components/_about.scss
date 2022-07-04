@@ -1,6 +1,8 @@
 @import '../base/extend';
 @import '../base/listas';
-@import '../base/variables';
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 
 
 .about{
@@ -11,13 +13,13 @@
         div{
             h2{
                 @extend %titulos-y-subs;
-                font-family: map-get($font-family, titulos);
+                font-family: map-get($fuentes,titulos);
                 font-size: map-get($tamanios-fuente, subtitulos);
             }
         }
         div{
             p{
-                font-family: map-get($font-family, parrafos );
+                font-family: map-get($fuentes, parrafos );
                 color: white;
             }
         }

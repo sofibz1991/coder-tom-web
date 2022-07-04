@@ -1,6 +1,8 @@
-@import 'base/extend';
-@import 'base/listas';
-@import 'base/variables';
+@import '../base/extend';
+@import '../base/listas';
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 
 header{
     position: relative;
@@ -8,7 +10,7 @@ header{
     @extend %glass-morphism;
     .navbar{
         h1{
-            font-family: map-get($font-family, titulos);
+            font-family: map-get($fuentes, titulos);
             font-size: map-get($tamanios-fuente, brand);
             @extend %titulos-y-subs;
         }
@@ -17,7 +19,7 @@ header{
                 li{
                     @extend %animacion-nav;
                     a{
-                        font-family: map-get($font-family, titulos);
+                        font-family: map-get($fuentes, titulos);
                         font-size: map-get($tamanios-fuente, links);
                         @extend %titulos-y-subs;
                     }

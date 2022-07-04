@@ -1,3 +1,16 @@
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
@@ -19,7 +32,7 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
@@ -37,6 +50,76 @@ footer, header {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 .about {
   background-image: url(../../Media/Fotos/about-fondo2.svg);
   background-repeat: no-repeat;
@@ -49,6 +132,19 @@ footer, header {
     color: white; }
   .about .about-content div img {
     width: 98%; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -71,7 +167,7 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
@@ -80,6 +176,84 @@ footer, header {
   .gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 .contacto {
   background-image: url(../../Media/Fotos/ojo-de-pez.svg);
@@ -115,95 +289,25 @@ footer, header {
     padding: 20px; }
 
 @media (max-width: 900px) {
-  .contacto .contact-content .contact {
-    position: relative;
-    left: 20vw; } }
-
-.contact-content .contact #boton, footer form .boton {
-  border-radius: 10px;
-  background-color: #f39143;
-  color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #e8a1aa;
-    cursor: pointer; }
-
-footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
-  transition: all .5s; }
-  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
-    border-radius: 10px;
-    transform: scale(1.15);
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
-
-footer, header {
-  border-radius: 30px;
-  background-color: rgba(86, 13, 80, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
-  backdrop-filter: blur 18px; }
-
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
-  color: #f39143;
-  -webkit-text-stroke: 0.5px black; }
-
-.gallery .gallery-container div div img {
-  transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
-footer {
-  margin-top: 5vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 2; }
-  footer form {
+  .contacto .contact-content {
     display: flex;
-    width: 80vw;
-    margin-left: 15vw;
-    margin-top: 2vw; }
-    footer form .form-control {
-      width: 60%;
-      height: 35%;
-      margin-right: 2vw;
-      font-family: parrafos; }
-    footer form .boton {
-      width: 25%;
-      height: 35%;
-      font-family: parrafos; }
-  footer .social-bar {
-    display: flex;
-    list-style-type: none;
-    position: relative;
-    left: 14vw; }
-    footer .social-bar .icon {
-      margin-bottom: 2vh;
-      display: flex;
-      padding: 5px; }
-    footer .social-bar img {
-      width: 15%;
-      display: flex; }
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; } }
 
-@media (max-width: 900px) {
-  footer {
-    flex-direction: column; }
-    footer form {
-      flex-direction: column; }
-      footer form .form-control {
-        width: 100%;
-        height: 15%; }
-      footer form .boton {
-        width: 45%;
-        position: relative;
-        left: 20vw; }
-    footer .title-form h3 {
-      font-size: 18px; }
-    footer .social-bar {
-      flex-direction: row; }
-      footer .social-bar .icon {
-        position: relative;
-        left: 6vw; }
-        footer .social-bar .icon img {
-          width: 20%; } }
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -226,52 +330,7 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
-  color: #f39143;
-  -webkit-text-stroke: 0.5px black; }
-
-.gallery .gallery-container div div img {
-  transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
-.gallery {
-  background-image: url(../../Media/Fotos/buganvilia.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-  .gallery .gallery-container div h2 {
-    font-size: 40px;
-    font-family: titulos-funky; }
-  .gallery .gallery-container div div img {
-    width: 70%; }
-
-@media (max-width: 900px) {
-  .gallery .gallery-container div div img {
-    width: 96%; } }
-
-.contact-content .contact #boton, footer form .boton {
-  border-radius: 10px;
-  background-color: #f39143;
-  color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #e8a1aa;
-    cursor: pointer; }
-
-footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
-  transition: all .5s; }
-  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
-    border-radius: 10px;
-    transform: scale(1.15);
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
-
-footer, header {
-  border-radius: 30px;
-  background-color: rgba(86, 13, 80, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
-  backdrop-filter: blur 18px; }
-
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
@@ -288,6 +347,403 @@ footer, header {
 @font-face {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+footer {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2; }
+  footer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 15vw;
+    margin-top: 2vw; }
+    footer form .form-control {
+      width: 68%;
+      height: 35%;
+      margin-right: 2vw;
+      font-family: parrafos; }
+    footer form .boton {
+      width: 30%;
+      height: 35%;
+      font-family: parrafos; }
+  footer .social-bar {
+    display: flex;
+    list-style-type: none;
+    margin-top: 2vw; }
+    footer .social-bar .icon {
+      margin-bottom: 2vh;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: row; }
+    footer .social-bar img {
+      width: 15%; }
+
+@media (max-width: 900px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    footer form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: column; }
+      footer form .form-control {
+        width: 100%;
+        height: 15%; }
+      footer form .boton {
+        width: 45%;
+        left: 20vw; }
+    footer .title-form h3 {
+      font-size: 18px; }
+    footer .social-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: row; }
+      footer .social-bar .icon img {
+        width: 20%; } }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #e8a1aa;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.gallery {
+  background-image: url(../../Media/Fotos/buganvilia.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .gallery .gallery-container div h2 {
+    font-size: 40px;
+    font-family: titulos-funky; }
+  .gallery .gallery-container div div img {
+    width: 70%; }
+
+@media (max-width: 900px) {
+  .gallery .gallery-container div div img {
+    width: 96%; } }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #e8a1aa;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 header {
   position: relative;
@@ -307,6 +763,11 @@ header {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
   background-color: #f39143;
@@ -328,7 +789,7 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
@@ -337,6 +798,84 @@ footer, header {
   .gallery .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 #index {
   min-height: 100 vh;
@@ -360,63 +899,18 @@ footer, header {
   #index .main-index {
     padding: 40vh; }
 
-.contact-content .contact #boton, footer form .boton {
-  border-radius: 10px;
-  background-color: #f39143;
-  color: #560d50; }
-  .contact-content .contact #boton:hover, footer form .boton:hover {
-    background-color: #e8a1aa;
-    cursor: pointer; }
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
 
-footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
-  transition: all .5s; }
-  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
-    border-radius: 10px;
-    transform: scale(1.15);
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
-footer, header {
-  border-radius: 30px;
-  background-color: rgba(86, 13, 80, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
-  backdrop-filter: blur 18px; }
-
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
-  color: #f39143;
-  -webkit-text-stroke: 0.5px black; }
-
-.gallery .gallery-container div div img {
-  transition: all .8s; }
-  .gallery .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
-.music {
-  background-image: url(../../Media/Fotos/buganvilia.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-  .music .music-content {
-    display: flex;
-    padding: 8%; }
-    .music .music-content h2 {
-      font-size: 40px;
-      font-family: titulos-funky;
-      position: relative;
-      left: 18vw;
-      display: inline; }
-    .music .music-content .tapa img {
-      width: 60%;
-      position: relative;
-      top: 10vh; }
-    .music .music-content .tapa .spotify iframe {
-      position: relative;
-      top: 5vh; }
-
-@media (max-width: 900px) {
-  .music-content h2 {
-    display: none; }
-  .music-content .tapa {
-    display: none; } }
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -439,7 +933,7 @@ footer, header {
   box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
   backdrop-filter: blur 18px; }
 
-.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a, .music .music-content h2 {
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
@@ -456,3 +950,187 @@ footer, header {
 @font-face {
   font-family: parrafos;
   src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.music {
+  background-image: url(../../Media/Fotos/buganvilia.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .music .music-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 8%; }
+    .music .music-content .tapa img {
+      width: 80%; }
+
+@media (max-width: 900px) {
+  .music-content .tapa {
+    display: none; } }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.contact-content .contact #boton, footer form .boton {
+  border-radius: 10px;
+  background-color: #f39143;
+  color: #560d50; }
+  .contact-content .contact #boton:hover, footer form .boton:hover {
+    background-color: #e8a1aa;
+    cursor: pointer; }
+
+footer .social-bar .icon, header .navbar #MenuNavegacion ul li {
+  transition: all .5s; }
+  footer .social-bar .icon:hover, header .navbar #MenuNavegacion ul li:hover {
+    border-radius: 10px;
+    transform: scale(1.15);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+footer, header {
+  border-radius: 30px;
+  background-color: rgba(86, 13, 80, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+  backdrop-filter: blur 18px; }
+
+.about .about-content div h2, .contact-content .contact h2, .gallery .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
+  color: #f39143;
+  -webkit-text-stroke: 0.5px black; }
+
+.gallery .gallery-container div div img {
+  transition: all .8s; }
+  .gallery .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: titulos-funky;
+  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
+
+@font-face {
+  font-family: parrafos;
+  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }

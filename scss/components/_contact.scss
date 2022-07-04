@@ -1,6 +1,8 @@
 @import '../base/extend';
 @import '../base/listas';
-
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 .contacto{
     background-image: url(../../Media/Fotos/ojo-de-pez.svg);
     background-attachment: fixed;
@@ -19,7 +21,7 @@
             color: map-get($colores, jaffa);
             text-align: center;
             margin-bottom: 4vw;
-            font-family: map-get($font-family, titulos);
+            font-family: map-get($fuentes, titulos);
             @extend %titulos-y-subs;
         }
         input, textarea {
@@ -27,7 +29,7 @@
             margin-bottom: 2vw;
             padding: 7px;
             box-sizing: border-box;
-            font-family: map-get($font-family, parrafos);
+            font-family: map-get($fuentes, parrafos);
             border-radius: 10px;
             border: 1px, solid, transparent;
             
@@ -47,9 +49,8 @@
 @media (max-width:900px) {
     .contacto{
         .contact-content{
+            @include flex(center, center, nowrap, column);
             .contact{
-                position: relative;
-                left: 20vw;
             }
         }
     }

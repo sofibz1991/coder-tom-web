@@ -1,6 +1,8 @@
 @import '../base/extend';
 @import '../base/listas';
-
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 footer {
     margin-top: 5vh;
     display: flex;
@@ -9,53 +11,50 @@ footer {
     z-index: 2;
     @extend %glass-morphism;
     form{
-        display: flex;
+        @include flex(center, center, nowrap, row);
         width: 80vw;
         margin-left: 15vw;
         margin-top: 2vw;
         .form-control{
-            width: 60%;
+            width: 68%;
             height: 35%;
             margin-right: 2vw;
-            font-family: map-get($font-family, parrafos);
+            font-family: map-get($fuentes, parrafos);
         }
         .boton {
-            width: 25%;
+            width: 30%;
             height: 35%;
-            font-family: map-get($font-family, parrafos);
+            font-family: map-get($fuentes, parrafos);
             @extend %boton-form;
         }
     }
     .social-bar {
-        display: flex;       
+        display: flex;
         list-style-type: none;
-        position: relative;
-        left: 14vw;
+        margin-top: 2vw;
                 .icon{
                     margin-bottom: 2vh;
-                    display: flex;
                     padding: 5px;
                     @extend %animacion-nav;
+                    @include flex(center, center, nowrap, row);
                     }
                     img{
                         width: 15%;
-                        display: flex;
                 }
     }
 }
 
 @media (max-width: 900px) {
     footer{
-        flex-direction: column;
+        @include flex(center, center, nowrap, column);
         form{
-            flex-direction: column;
+            @include flex(center, center, nowrap, column);
             .form-control{
                 width: 100%;
                 height:15% ;
             }
             .boton{
                 width: 45%;
-                position: relative;
                 left: 20vw;
             }
         }
@@ -65,10 +64,8 @@ footer {
             }
         }
         .social-bar{
-            flex-direction: row;
+            @include flex(center, center, nowrap, row);
             .icon{
-                position: relative;
-                left: 6vw;
                 img{
                     width:20%
                 }

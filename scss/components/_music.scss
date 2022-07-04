@@ -1,42 +1,26 @@
 @import '../base/extend';
 @import '../base/listas';
-
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 .music{
     background-image: url(../../Media/Fotos/buganvilia.svg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     .music-content{
-        display: flex;
+        @include flex(flex-start, center, nowrap, row);
         padding: 8%;
-        h2{
-            @extend %titulos-y-subs;
-            font-size: map-get($tamanios-fuente, t-tulos);
-            font-family: map-get($font-family, titulos);
-            position: relative;
-            left: 18vw;
-            display: inline;
-        }
         .tapa{
             img{
-                width: 60%;
-                position: relative;
-                top: 10vh;
+                width: 80%;
             }
-        .spotify{
-            iframe{
-                position: relative;
-                top: 5vh;
-            }
-        }
         }
     }
 }
 
+
 @media (max-width:900px) {
     .music-content{
-        h2{
-            display: none;
-        }
         .tapa{
             display: none;
         }

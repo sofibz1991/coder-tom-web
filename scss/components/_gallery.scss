@@ -1,5 +1,8 @@
 @import '../base/extend';
 @import '../base/listas';
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 
 .gallery {
     background-image: url(../../Media/Fotos/buganvilia.svg);
@@ -9,7 +12,7 @@
         div{
             h2{
                 font-size: map-get($tamanios-fuente, t-tulos);
-                font-family: map-get($font-family, titulos);
+                font-family: map-get($fuentes, titulos);
                 @extend %titulos-y-subs;
             }
         }

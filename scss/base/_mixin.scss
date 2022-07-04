@@ -1,0 +1,11 @@
+@import 'global';
+@import 'listas';
+@import 'variables';
+
+@mixin flex($x, $y, $wrap, $direction){
+    display: flex;
+    justify-content: $x;
+    align-items: $y;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+}

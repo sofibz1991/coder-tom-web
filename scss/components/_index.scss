@@ -1,6 +1,8 @@
-@import '../base/listas';
-@import '../base/variables';
 @import '../base/extend';
+@import '../base/listas';
+@import '../base/mixin';
+@import '../base/mixin';
+@import '../base/global';
 
 #index {
     min-height: 100 vh;
