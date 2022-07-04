@@ -1,7 +1,7 @@
 {
-  "name": "web-de-tom",
+  "name": "Tom Iriarte",
   "version": "1.0.0",
-  "description": "",
+  "description": "La web muestra el perfil de tom como músico: guitarrista y vocalista de géneros como el soul, jazz, funk, blues y lo-fi; encontramos su información general, formulario de contacto, galería de fotos, música y links de redes sociales ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1","build-css": "node-sass --include-path scss scss/styles.scss css/styles.css","watch-css": "nodemon -e scss -x \"npm run build-css\""
