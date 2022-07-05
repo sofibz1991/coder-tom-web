@@ -72,3 +72,33 @@ footer {
         }
     }
 }
+
+@media (max-width: 500px) {
+    footer{
+        @include flex(center, center, nowrap, column);
+        form{
+            @include flex(center, center, nowrap, column);
+            .form-control{
+                width: 100%;
+                height:15% ;
+            }
+            .boton{
+                width: 50%;
+                left: 20vw;
+            }
+        }
+        .title-form{
+            h3{
+                font-size: map-get($tamanios-fuente, textos);
+            }
+        }
+        .social-bar{
+            @include flex(center, center, nowrap, row);
+            .icon{
+                img{
+                    width:30%
+                }
+            }
+        }
+    }
+}

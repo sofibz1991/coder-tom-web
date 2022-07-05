@@ -118,6 +118,16 @@ footer, header {
     flex-wrap: nowrap;
     flex-direction: column; } }
 
+@media (max-width: 500px) {
+  #contacto .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    #contacto .contact-content .contact #boton {
+      padding: 10px; } }
+
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -217,6 +227,36 @@ footer {
       flex-direction: row; }
       footer .social-bar .icon img {
         width: 20%; } }
+
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    footer form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: column; }
+      footer form .form-control {
+        width: 100%;
+        height: 15%; }
+      footer form .boton {
+        width: 50%;
+        left: 20vw; }
+    footer .title-form h3 {
+      font-size: 18px; }
+    footer .social-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: row; }
+      footer .social-bar .icon img {
+        width: 30%; } }
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
