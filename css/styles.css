@@ -1,6 +1,5 @@
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -53,7 +52,6 @@ footer, header {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -130,7 +128,6 @@ footer, header {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -261,7 +258,6 @@ footer {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -327,7 +323,6 @@ footer, header {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -368,7 +363,6 @@ header {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -421,7 +415,6 @@ footer, header {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -466,7 +459,6 @@ footer, header {
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center; }
 
@@ -507,3 +499,7 @@ html {
     background-image: url(../Media/Fotos/ojo-de-pez.svg); }
   html #about {
     background-image: url(../Media/Fotos/funky-side.svg); }
+
+@media (max-width: 500px) {
+  #music, #gallery, #contacto, #about {
+    background-attachment: scroll; } }
