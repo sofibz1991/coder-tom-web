@@ -44,8 +44,6 @@
     #contacto{
         .contact-content{
             @include flex(center, center, nowrap, column);
-            .contact{
-            }
         }
     }
 }
