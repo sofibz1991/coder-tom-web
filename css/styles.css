@@ -1,7 +1,8 @@
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -50,10 +51,11 @@ footer, header {
   to {
     color: white; } }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -126,10 +128,11 @@ footer, header {
     #contacto .contact-content .contact #boton {
       padding: 10px; } }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -256,10 +259,11 @@ footer {
       footer .social-bar .icon img {
         width: 35%; } }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -321,10 +325,11 @@ footer, header {
       transform: none;
       cursor: auto; } }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -361,10 +366,11 @@ header {
     font-family: 'Chicle', cursive;
     font-size: 26px; }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -413,10 +419,11 @@ footer, header {
   #index .main-index {
     padding: 40vh; }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -457,10 +464,11 @@ footer, header {
   .music-content .tapa {
     display: none; } }
 
-html #music, html #contacto, html #about {
+html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .contact-content .contact #boton, footer form .boton {
   border-radius: 10px;
@@ -499,7 +507,3 @@ html {
     background-image: url(../Media/Fotos/ojo-de-pez.svg); }
   html #about {
     background-image: url(../Media/Fotos/funky-side.svg); }
-
-@media (max-width: 500px) {
-  #music, #gallery, #contacto, #about {
-    background-attachment: scroll; } }

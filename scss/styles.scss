@@ -20,7 +20,9 @@ html{
         @extend %img-fondo;
     }
     #gallery {
-        background-image: url(../Media/Fotos/buganvilia.svg)
+        background-image: url(../Media/Fotos/buganvilia.svg);
+        @extend %img-fondo;
+
     }
     #contacto{
         background-image: url(../Media/Fotos/ojo-de-pez.svg);
@@ -29,11 +31,5 @@ html{
     #about{
         background-image: url(../Media/Fotos/funky-side.svg);
         @extend %img-fondo;
-    }
-}
-
-@media (max-width:500px) {
-    #music, #gallery, #contacto, #about{
-        background-attachment:scroll;
     }
 }
