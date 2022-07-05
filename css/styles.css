@@ -398,7 +398,6 @@ footer, header {
   -webkit-text-stroke: 0.5px black; }
 
 #index {
-  min-height: 100 vh;
   position: relative; }
   #index video {
     width: 100%;
