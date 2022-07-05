@@ -15,12 +15,15 @@
         div{
             img{
                 width: 70%;
-                @extend %animacion-gallery;
+                transition: all .8s;
+                &:hover{
+                transform: scale(3);
+                cursor: pointer;
+                }
             }
-        }
-    }    
+        }    
+    }
 }
-
 
 @media (min-width:900px) {
     #gallery{
@@ -29,6 +32,49 @@
                 div{
                     img{
                         width: 96%;
+                        transition: all .8s;
+                        &:hover{
+                            transform: scale(1.5);
+                            cursor:pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:700px) {
+    #gallery{
+        .gallery-container{
+            div{
+                div{
+                    img{
+                        width: 96%;
+                        transition: all .8s;
+                        &:hover{
+                            transform: scale(2);
+                            cursor:pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    #gallery{
+        .gallery-container{
+            div{
+                div{
+                    img{
+                        width: 100%;
+                        transition: none;
+                        &:hover{
+                            transform: none;
+                            cursor:auto
+                        }
                     }
                 }
             }

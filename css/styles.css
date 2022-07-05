@@ -29,12 +29,6 @@ footer, header {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
 .about-content div h2 {
   font-family: 'Chicle', cursive;
   font-size: 36px;
@@ -88,12 +82,6 @@ footer, header {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
 .contact-content .contact {
   margin-left: 3vw;
   margin-top: 4vh;
@@ -122,7 +110,7 @@ footer, header {
   .contact-content .contact #boton {
     padding: 20px; }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   #contacto .contact-content {
     display: flex;
     justify-content: center;
@@ -160,12 +148,6 @@ footer, header {
 .about-content div h2, .contact-content .contact h2, .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
-
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
 
 footer {
   margin-top: 5vh;
@@ -206,7 +188,7 @@ footer {
     footer .social-bar img {
       width: 15%; }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   footer {
     display: flex;
     justify-content: center;
@@ -267,22 +249,40 @@ footer, header {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
 .gallery-container div h2 {
   font-size: 40px;
   font-family: 'Chicle', cursive; }
 
 .gallery-container div div img {
-  width: 70%; }
+  width: 70%;
+  transition: all .8s; }
+  .gallery-container div div img:hover {
+    transform: scale(3);
+    cursor: pointer; }
 
 @media (min-width: 900px) {
   #gallery .gallery-container div div img {
-    width: 96%; } }
+    width: 96%;
+    transition: all .8s; }
+    #gallery .gallery-container div div img:hover {
+      transform: scale(1.5);
+      cursor: pointer; } }
+
+@media (max-width: 700px) {
+  #gallery .gallery-container div div img {
+    width: 96%;
+    transition: all .8s; }
+    #gallery .gallery-container div div img:hover {
+      transform: scale(2);
+      cursor: pointer; } }
+
+@media (max-width: 500px) {
+  #gallery .gallery-container div div img {
+    width: 100%;
+    transition: none; }
+    #gallery .gallery-container div div img:hover {
+      transform: none;
+      cursor: auto; } }
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
@@ -314,12 +314,6 @@ footer, header {
 .about-content div h2, .contact-content .contact h2, .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
-
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
 
 header {
   position: relative;
@@ -361,12 +355,6 @@ footer, header {
 .about-content div h2, .contact-content .contact h2, .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
-
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
 
 #index {
   min-height: 100 vh;
@@ -421,12 +409,6 @@ footer, header {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
 
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
-
 .music-content {
   display: flex;
   justify-content: flex-start;
@@ -437,7 +419,7 @@ footer, header {
   .music-content .tapa img {
     width: 80%; }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .music-content .tapa {
     display: none; } }
 
@@ -471,12 +453,6 @@ footer, header {
 .about-content div h2, .contact-content .contact h2, .gallery-container div h2, header .navbar h1, header .navbar #MenuNavegacion ul li a {
   color: #f39143;
   -webkit-text-stroke: 0.5px black; }
-
-.gallery-container div div img {
-  transition: all .8s; }
-  .gallery-container div div img:hover {
-    transform: scale(3);
-    cursor: pointer; }
 
 html {
   box-sizing: border-box;

@@ -40,7 +40,7 @@
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
     #contacto{
         .contact-content{
             @include flex(center, center, nowrap, column);
