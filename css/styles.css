@@ -398,6 +398,7 @@ footer, header {
   -webkit-text-stroke: 0.5px black; }
 
 #index {
+  min-height: 100vh;
   position: relative; }
   #index video {
     width: 100%;
@@ -416,7 +417,7 @@ footer, header {
     opacity: 0.5;
     mix-blend-mode: overlay; }
   #index .main-index {
-    padding: 40vh; }
+    height: 100vh; }
 
 html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
