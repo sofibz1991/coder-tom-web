@@ -8,5 +8,26 @@
 @import 'base/extend';
 @import 'base/listas';
 @import 'base/variables';
-@import 'base/global';
 @import 'base/mixin';
+
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    #music{
+        background-image: url(../Media/Fotos/buganvilia.svg);
+        @extend %img-fondo;
+    }
+    #gallery {
+        background-image: url(../Media/Fotos/buganvilia.svg)
+    }
+    #contacto{
+        background-image: url(../Media/Fotos/ojo-de-pez.svg);
+        @extend %img-fondo;
+    }
+    #about{
+        background-image: url(../Media/Fotos/funky-side.svg);
+        @extend %img-fondo;
+    }
+}

@@ -2,49 +2,39 @@
 @import '../base/listas';
 @import '../base/mixin';
 @import '../base/mixin';
-@import '../base/global';
 
-
-#about{
-    background-image: url(../../Media/Fotos/about-fondo2.svg);
-    @extend %img-fondo;
-    .about-content{
-        div{
-            h2{
-                @extend %titulos-y-subs;
-                font-family: map-get($fuentes,titulos);
-                font-size: map-get($tamanios-fuente, subtitulos);
-                animation: to-color 2s ease-in;
-                @keyframes to-color {
-                    from {
-                        color: transparent;
-                    }
-                    to {
-                        color: map-get($colores, jaffa);
-                    }
+.about-content{
+    div{
+        h2{
+            @extend %titulos-y-subs;
+            font-family: map-get($fuentes,titulos);
+            font-size: map-get($tamanios-fuente, subtitulos);
+            animation: to-color 2s ease-in;
+            @keyframes to-color {
+                from {
+                    color: transparent;
+                }
+                to {
+                    color: map-get($colores, jaffa);
                 }
             }
         }
-        div{
-            p{
-                font-family: map-get($fuentes, parrafos);
-                color: white;
-                animation: to-white 3.5s ease-in;
-                @keyframes to-white {
-                    from {
-                        color: transparent;
-                    }
-                    to {
-                        color: white;
-                    }
+    }
+    div{
+        p{
+            font-family: map-get($fuentes, parrafos);
+            color: white;
+            animation: to-white 3.5s ease-in;
+            @keyframes to-white {
+                from {
+                    color: transparent;
                 }
-            }
-        }
-        div{
-            img{
-                width: 98%;
+                to {
+                    color: white;
+                }
             }
         }
     }
 }
+
 

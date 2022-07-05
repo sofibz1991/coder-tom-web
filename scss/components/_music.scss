@@ -2,20 +2,17 @@
 @import '../base/listas';
 @import '../base/mixin';
 @import '../base/mixin';
-@import '../base/global';
-#music{
-    background-image: url(../../Media/Fotos/buganvilia.svg);
-    @extend %img-fondo;
-    .music-content{
-        @include flex(flex-start, center, nowrap, row);
-        padding: 8%;
-        .tapa{
-            img{
-                width: 80%;
-            }
+
+.music-content{
+    @include flex(flex-start, center, nowrap, row);
+    padding: 8%;
+    .tapa{
+        img{
+            width: 80%;
         }
     }
 }
+
 
 
 @media (max-width:900px) {

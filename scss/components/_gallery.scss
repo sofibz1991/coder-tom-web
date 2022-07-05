@@ -2,29 +2,25 @@
 @import '../base/listas';
 @import '../base/mixin';
 @import '../base/mixin';
-@import '../base/global';
 
-#gallery {
-    background-image: url(../../Media/Fotos/buganvilia.svg);
-    @extend %img-fondo;
-    .gallery-container{
-        div{
-            h2{
-                font-size: map-get($tamanios-fuente, t-tulos);
-                font-family: map-get($fuentes, titulos);
-                @extend %titulos-y-subs;
-            }
-        }
-        div{
-            div{
-                img{
-                    width: 70%;
-                    @extend %animacion-gallery;
-                }
-            }
+.gallery-container{
+    div{
+        h2{
+            font-size: map-get($tamanios-fuente, t-tulos);
+            font-family: map-get($fuentes, titulos);
+            @extend %titulos-y-subs;
         }
     }
+    div{
+        div{
+            img{
+                width: 70%;
+                @extend %animacion-gallery;
+            }
+        }
+    }    
 }
+
 
 @media (max-width:900px) {
     #gallery{
