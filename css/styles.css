@@ -245,7 +245,8 @@ footer {
         width: 100%;
         height: 15%; }
       footer form .boton {
-        width: 50%;
+        margin-top: 2px;
+        width: 60%;
         left: 20vw; }
     footer .title-form h3 {
       font-size: 18px; }
@@ -256,7 +257,7 @@ footer {
       flex-wrap: nowrap;
       flex-direction: row; }
       footer .social-bar .icon img {
-        width: 30%; } }
+        width: 35%; } }
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;

@@ -83,7 +83,8 @@ footer {
                 height:15% ;
             }
             .boton{
-                width: 50%;
+                margin-top: 2px;
+                width: 60%;
                 left: 20vw;
             }
         }
@@ -96,7 +97,7 @@ footer {
             @include flex(center, center, nowrap, row);
             .icon{
                 img{
-                    width:30%
+                    width:35%
                 }
             }
         }
