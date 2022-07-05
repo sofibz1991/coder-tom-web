@@ -1,10 +1,3 @@
-@font-face {
-    font-family: titulos-funky;
-    src: url(../../Fuentes/Chicle/Chicle-Regular.ttf);
-}
-@font-face {
-    font-family: parrafos;
-    src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf);
-}
-$font-family: titulos-funky;
-$font-family: parrafos;
+
+$font-family: 'Chicle', cursive;
+$font-family: 'Bubbler One', sans-serif;

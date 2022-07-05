@@ -1,11 +1,3 @@
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -43,48 +35,8 @@ footer, header {
     transform: scale(3);
     cursor: pointer; }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 .about-content div h2 {
-  font-family: titulos-funky;
+  font-family: 'Chicle', cursive;
   font-size: 36px;
   animation: to-color 2s ease-in; }
 
@@ -95,7 +47,7 @@ footer, header {
     color: #f39143; } }
 
 .about-content div p {
-  font-family: parrafos;
+  font-family: 'Bubbler One', sans-serif;
   color: white;
   animation: to-white 3.5s ease-in; }
 
@@ -104,14 +56,6 @@ footer, header {
     color: transparent; }
   to {
     color: white; } }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
@@ -149,46 +93,6 @@ footer, header {
   .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 .contact-content .contact {
   margin-left: 3vw;
@@ -202,13 +106,13 @@ footer, header {
     color: #f39143;
     text-align: center;
     margin-bottom: 4vw;
-    font-family: titulos-funky; }
+    font-family: 'Chicle', cursive; }
   .contact-content .contact input, .contact-content .contact textarea {
     width: 100%;
     margin-bottom: 2vw;
     padding: 7px;
     box-sizing: border-box;
-    font-family: parrafos;
+    font-family: 'Bubbler One', sans-serif;
     border-radius: 10px;
     border: 1px, solid, transparent; }
   .contact-content .contact textarea {
@@ -226,14 +130,6 @@ footer, header {
     flex-wrap: nowrap;
     flex-direction: column; } }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -270,46 +166,6 @@ footer, header {
   .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 footer {
   margin-top: 5vh;
@@ -330,11 +186,11 @@ footer {
       width: 68%;
       height: 35%;
       margin-right: 2vw;
-      font-family: parrafos; }
+      font-family: 'Bubbler One', sans-serif; }
     footer form .boton {
       width: 30%;
       height: 35%;
-      font-family: parrafos; }
+      font-family: 'Bubbler One', sans-serif; }
   footer .social-bar {
     display: flex;
     list-style-type: none;
@@ -380,14 +236,6 @@ footer {
       footer .social-bar .icon img {
         width: 20%; } }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -425,64 +273,16 @@ footer, header {
     transform: scale(3);
     cursor: pointer; }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 .gallery-container div h2 {
   font-size: 40px;
-  font-family: titulos-funky; }
+  font-family: 'Chicle', cursive; }
 
 .gallery-container div div img {
   width: 70%; }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   #gallery .gallery-container div div img {
     width: 96%; } }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
@@ -520,64 +320,16 @@ footer, header {
   .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 header {
   position: relative;
   z-index: 2; }
   header .navbar h1 {
-    font-family: titulos-funky;
+    font-family: 'Chicle', cursive;
     font-size: 45px; }
   header .navbar #MenuNavegacion ul li a {
-    font-family: titulos-funky;
+    font-family: 'Chicle', cursive;
     font-size: 26px; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
@@ -615,46 +367,6 @@ footer, header {
   .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 #index {
   min-height: 100 vh;
@@ -678,14 +390,6 @@ footer, header {
   #index .main-index {
     padding: 40vh; }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -722,46 +426,6 @@ footer, header {
   .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 .music-content {
   display: flex;
@@ -777,14 +441,6 @@ footer, header {
   .music-content .tapa {
     display: none; } }
 
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
 html #music, html #contacto, html #about {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -821,38 +477,6 @@ footer, header {
   .gallery-container div div img:hover {
     transform: scale(3);
     cursor: pointer; }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
-
-@font-face {
-  font-family: titulos-funky;
-  src: url(../../Fuentes/Chicle/Chicle-Regular.ttf); }
-
-@font-face {
-  font-family: parrafos;
-  src: url(../../Fuentes/Bubbler_One/BubblerOne-Regular.ttf); }
 
 html {
   box-sizing: border-box;

@@ -10,7 +10,7 @@ header{
     @extend %glass-morphism;
     .navbar{
         h1{
-            font-family: map-get($fuentes, titulos);
+            font-family: 'Chicle', cursive;
             font-size: map-get($tamanios-fuente, brand);
             @extend %titulos-y-subs;
         }
@@ -19,7 +19,7 @@ header{
                 li{
                     @extend %animacion-nav;
                     a{
-                        font-family: map-get($fuentes, titulos);
+                        font-family: 'Chicle', cursive;
                         font-size: map-get($tamanios-fuente, links);
                         @extend %titulos-y-subs;
                     }

@@ -18,12 +18,12 @@ footer {
             width: 68%;
             height: 35%;
             margin-right: 2vw;
-            font-family: map-get($fuentes, parrafos);
+            font-family: 'Bubbler One', sans-serif;
         }
         .boton {
             width: 30%;
             height: 35%;
-            font-family: map-get($fuentes, parrafos);
+            font-family: 'Bubbler One', sans-serif;
             @extend %boton-form;
         }
     }

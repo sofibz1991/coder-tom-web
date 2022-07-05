@@ -7,7 +7,7 @@
     div{
         h2{
             font-size: map-get($tamanios-fuente, t-tulos);
-            font-family: map-get($fuentes, titulos);
+            font-family: 'Chicle', cursive;
             @extend %titulos-y-subs;
         }
     }
@@ -22,7 +22,7 @@
 }
 
 
-@media (max-width:900px) {
+@media (min-width:900px) {
     #gallery{
         .gallery-container{
             div{
@@ -35,3 +35,4 @@
         }
     }
 }
+
