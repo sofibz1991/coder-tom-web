@@ -22,3 +22,10 @@
         }
     }
 }
+
+@media (max-width:500px) {
+    .music-content{
+        position: relative;
+        top: 14vh;
+    }
+}

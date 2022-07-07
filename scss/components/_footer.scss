@@ -13,7 +13,7 @@ footer {
         @include flex(center, center, nowrap, row);
         width: 80vw;
         margin-left: 15vw;
-        margin-top: 2vw;
+        margin-top: 4vw;
         .form-control{
             width: 68%;
             height: 35%;
@@ -75,6 +75,7 @@ footer {
 
 @media (max-width: 500px) {
     footer{
+        margin-top: 16vh;
         @include flex(center, center, nowrap, column);
         form{
             @include flex(center, center, nowrap, column);

@@ -181,7 +181,7 @@ footer {
     flex-direction: row;
     width: 80vw;
     margin-left: 15vw;
-    margin-top: 2vw; }
+    margin-top: 4vw; }
     footer form .form-control {
       width: 68%;
       height: 35%;
@@ -238,6 +238,7 @@ footer {
 
 @media (max-width: 500px) {
   footer {
+    margin-top: 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -479,6 +480,11 @@ footer, header {
 @media (max-width: 700px) {
   .music-content .tapa {
     display: none; } }
+
+@media (max-width: 500px) {
+  .music-content {
+    position: relative;
+    top: 14vh; } }
 
 html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
