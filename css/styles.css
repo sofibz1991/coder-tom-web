@@ -366,6 +366,11 @@ header {
     font-family: 'Chicle', cursive;
     font-size: 26px; }
 
+@media (max-width: 500px) {
+  header {
+    position: fixed;
+    z-index: 1; } }
+
 html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
