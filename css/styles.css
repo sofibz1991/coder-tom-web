@@ -51,6 +51,11 @@ footer, header {
   to {
     color: white; } }
 
+@media (max-width: 500px) {
+  .about-content {
+    position: relative;
+    top: 18vh; } }
+
 html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,8 +130,11 @@ footer, header {
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column; }
-    #contacto .contact-content .contact #boton {
-      padding: 10px; } }
+    #contacto .contact-content .contact {
+      position: relative;
+      top: 12vh; }
+      #contacto .contact-content .contact #boton {
+        padding: 10px; } }
 
 html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;
@@ -318,12 +326,15 @@ footer, header {
       cursor: pointer; } }
 
 @media (max-width: 500px) {
-  #gallery .gallery-container div div img {
-    width: 100%;
-    transition: none; }
-    #gallery .gallery-container div div img:hover {
-      transform: none;
-      cursor: auto; } }
+  #gallery .gallery-container {
+    position: relative;
+    top: 14vh; }
+    #gallery .gallery-container div div img {
+      width: 100%;
+      transition: none; }
+      #gallery .gallery-container div div img:hover {
+        transform: none;
+        cursor: auto; } }
 
 html #music, html #gallery, html #contacto, html #about {
   background-repeat: no-repeat;

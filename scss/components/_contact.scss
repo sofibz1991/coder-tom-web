@@ -53,6 +53,8 @@
         .contact-content{
             @include flex(center, center, nowrap, column);
             .contact{
+                position: relative;
+                top: 12vh;
                 #boton{
                     padding: 10px;
                 }

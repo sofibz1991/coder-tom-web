@@ -66,6 +66,8 @@
 @media (max-width:500px) {
     #gallery{
         .gallery-container{
+            position: relative;
+            top: 14vh;
             div{
                 div{
                     img{
